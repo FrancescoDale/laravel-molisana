@@ -20,7 +20,7 @@
                             <a href="{{ route('prodotti-page') }} ">Prodotti</a>
                         </li>
                         <li>
-                            <a href="#">News</a>
+                            <a href="{{ route('news-page') }} ">News</a>
                         </li>
                     </ul>
                 </nav>
