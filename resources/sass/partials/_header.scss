@@ -1,7 +1,23 @@
 header {
     text-align: center;
 
+    nav {
+        margin-top: $size;
+
+    }
+
     li {
         display: inline-block;
+
+        a {
+            text-decoration: none;
+            font-size: $size * 1.8;
+            color: $darkTxt;
+            padding: 0 $size /2;
+
+            &:hover {
+                background-color: $mainColor;
+            }
+        }
     }
 }

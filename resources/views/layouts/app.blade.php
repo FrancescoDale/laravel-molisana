@@ -6,12 +6,15 @@
         <title>@yield('title')</title>
     </head>
     <body>
-        @include('partials.header')
-        
-        <main>
-            @yield('content')
+        <div class="container">
+            @include('partials.header')
 
-        </main>
+            <main>
+                @yield('content')
+
+            </main>
+
+        </div>
 
         @include('partials.footer')
 

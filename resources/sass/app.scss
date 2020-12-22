@@ -2,3 +2,8 @@
 @import 'partials/commons';
 @import 'partials/header';
 @import 'partials/footer';
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
