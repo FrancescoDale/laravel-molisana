@@ -4,3 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  text-align: center;
+}
+
+header li {
+  display: inline-block;
+}
+
