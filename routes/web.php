@@ -138,3 +138,7 @@ Route::get('/home', function () {
     ];
     return view('home', $pasta);
 });
+
+Route::get('/prodotti', function () {
+    return view('prodotti');
+});
