@@ -141,4 +141,4 @@ Route::get('/', function () {
 
 Route::get('/prodotti', function () {
     return view('prodotti');
-});
+})->name('prodotti-page');
