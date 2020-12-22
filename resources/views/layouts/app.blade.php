@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <title>La Molisana</title>
+        <title>@yield('title')</title>
     </head>
     <body>
         @include('partials.header')
