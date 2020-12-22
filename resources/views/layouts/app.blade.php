@@ -6,7 +6,19 @@
         <title>La Molisana</title>
     </head>
     <body>
-        @yield('content')
+        <header>
+            <div id="logo">
+                <img src="{{ asset('images/marchio-sito-test.png')}}" alt="">
+            </div>
+        </header>
+        <main>
+            @yield('content')
+
+        </main>
+
+        <footer>
+
+        </footer>
 
         <script src="{{ asset('js/app.js')}}" charset="utf-8"></script>
     </body>
