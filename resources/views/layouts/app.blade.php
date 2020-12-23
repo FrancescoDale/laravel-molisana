@@ -11,7 +11,7 @@
 
             <main>
                 @yield('content')
-
+                @yield('cards')
             </main>
 
         </div>
